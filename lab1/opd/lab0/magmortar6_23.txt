@@ -1,2 +1,0 @@
-satk=7 sdef=6 spd=9
-satk=7 sdef=6 spd=9
