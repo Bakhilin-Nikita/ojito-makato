@@ -1,6 +1,6 @@
 #!/bin/bash
 #1
-cd opd/; umask 022
+cd ~/ojito-makato/LABS/; umask 022
 mkdir lab0
 cd lab0
 mkdir -p charmeleon3 charmeleon3/timburr charmeleon3/mienshao charmeleon3/swellow
@@ -20,7 +20,7 @@ echo "Способности Ember \n Magnitude Focus Energy Flame Burst Amnesia
 echo "Способности Focus Guts Sheer Force" > timburr0
 #2
 chmod u+rwx charmeleon3; chmod o+rx charmeleon3; chmod o+w charmeleon3
-chmod 357 charmemeleon3/timburr 
+chmod 357 charmeleon3/timburr 
 chmod 570 charmeleon3/mienshao
 chmod o-rwx charmeleon3/staryu; chmod u+r charmeleon3/staryu
 chmod o-rwx magmortar6; chmod u+rw magmortar6; chmod g+r magmortar6;
@@ -41,7 +41,7 @@ chmod a-rwx timburr0; chmod a+r timburr0;
 ln -s timburr0 starmie7/charizardtimburr
 cat charmeleon3/staryu charmeleon3/staryu > magmortar6_23
 ln timburr0 scraggy8/mismagiustimburr
-cat timburr0 charmeleon3/staryutimburr
+cat timburr0 >  charmeleon3/staryutimburr
 cp timburr0 charmeleon3/timburr
 ln -s starmie7 Copy_92
 cp -R scraggy8 charmeleon3/timburr
@@ -55,8 +55,8 @@ grep -r '.*' ./t* | sort 2>/tmp/errorsNull
 #5
 rm roserade7
 rm starmie7/camerupt
-unlink lab0/starmie7/charizardtimbu*
-unlink scraggy8/mismagiustimbu*
+unlink lab0/starmie7/charizardtimburr
+unlink scraggy8/mismagiustimburr
 rm -rf charmeleon3
 rm -rf charmeleon3/mienshao
  
