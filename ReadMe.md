@@ -1,5 +1,8 @@
-# This repository for JAVA
+# Ojito-Makato -  repository about computer science.
 
 ----
 
-_**JM**_
+## 101001111001 and something like that...
+
+
+_**JimKerry**_
