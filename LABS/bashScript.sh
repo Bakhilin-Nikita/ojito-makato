@@ -12,11 +12,11 @@ touch starmie7/charizard  starmie7/camerupt
 mkdir starmie7/excadrill
 touch timburr0
 echo "satk=7 sdef=6 spd=9" > charmeleon3/staryu
-echo "Развитые способности Vital \n Spirit" > magmortar6
-echo "Живет Forest Glassland Rainforest" > roserade7
-echo "Тип \n покемона GHOST NONE" > scraggy8/mismagius
-echo "Ходы Air Cutter Air Slash Blast Burn \n Body Slam Counter Defense Curl Double-Edge Dragon Claw Dragon Pulse \n Dynamicpunch Fire Pledge Fire Punch Focus Punch Fury Cutter Growl Heat \n Wave Iron Tail Mega Kick Mega Punch Metal  Claw Mud-Slap Ominous Wind \n Outrage Rage Roost Seismic Toss Shadow Claw Sleep  Snore Steel \n Wing Swift Tailwind Thunderpunch Twister" > starmie7/charizard
-echo "Способности Ember \n Magnitude Focus Energy Flame Burst Amnesia Lava Plume Earth Power \n  Curse Take Down Rock Slide Yawn Earthquake Eruption \n Fissure" > starmie7/camerupt
+echo -e  "Развитые способности Vital \nSpirit" > magmortar6
+echo -e  "Живет Forest Glassland Rainforest" > roserade7
+echo -e  "Тип \nпокемона GHOST NONE" > scraggy8/mismagius
+echo -e  "Ходы Air Cutter Air Slash Blast Burn \nBody Slam Counter Defense Curl Double-Edge Dragon Claw Dragon Pulse \nDynamicpunch Fire Pledge Fire Punch Focus Punch Fury Cutter Growl Heat \nWave Iron Tail Mega Kick Mega Punch Metal  Claw Mud-Slap Ominous Wind \nOutrage Rage Roost Seismic Toss Shadow Claw Sleep  Snore Steel \nWing Swift Tailwind Thunderpunch Twister" > starmie7/charizard
+echo -e  "Способности Ember \nMagnitude Focus Energy Flame Burst Amnesia Lava Plume Earth Power \nCurse Take Down Rock Slide Yawn Earthquake Eruption \nFissure" > starmie7/camerupt
 echo "Способности Focus Guts Sheer Force" > timburr0
 #2
 chmod u+rwx charmeleon3; chmod o+rx charmeleon3; chmod o+w charmeleon3
