@@ -51,7 +51,7 @@ wc -c charmeleon3/staryu scraggy8/mismagius starmie7/charizard | sort -n -r
 grep -r '.*' ./t* | sort 2>/tmp/errorsNull
 (cat ./ ./*/* | grep -vi 'r$') 2>/tmp/errorsNull
 (ls -al ~/opd/lab0/*/** ~/opd/lab0/ | grep "t$" | sort -r) 2>/dev/null
-(ls -S  ./ ./*/* | grep 'mbu') 2>/tmp/errorsNull
+(ls -Sr  ./ ./*/* | grep 'mbu') 2>/tmp/errorsNull
 #5
 rm roserade7
 rm starmie7/camerupt
