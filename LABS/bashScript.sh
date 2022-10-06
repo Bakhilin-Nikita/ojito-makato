@@ -19,10 +19,10 @@ echo -e  "Ходы Air Cutter Air Slash Blast Burn \nBody Slam Counter Defense C
 echo -e  "Способности Ember \nMagnitude Focus Energy Flame Burst Amnesia Lava Plume Earth Power \nCurse Take Down Rock Slide Yawn Earthquake Eruption \nFissure" > starmie7/camerupt
 echo "Способности Focus Guts Sheer Force" > timburr0
 #2
-chmod u+rwx charmeleon3; chmod o+rx charmeleon3; chmod o+w charmeleon3
+chmod og-rwx; chmod u+rwx charmeleon3; chmod g+rx charmeleon3; chmod o+w charmeleon3
 chmod 357 charmeleon3/timburr 
 chmod 570 charmeleon3/mienshao
-chmod o-rwx charmeleon3/staryu; chmod u+r charmeleon3/staryu
+chmod ogu-rwx charmeleon3/staryu; chmod u+r charmeleon3/staryu
 chmod o-rwx magmortar6; chmod u+rw magmortar6; chmod g+r magmortar6;
 chmod o-rwx roserade7; chmod u+rw roserade7; chmod o+r roserade7
 chmod o-r scraggy8; chmod g+rw scraggy8
@@ -50,7 +50,7 @@ wc -c charmeleon3/staryu scraggy8/mismagius starmie7/charizard | sort -n -r
 (ls -ltr ./* ./*/* | grep llo ) 2>/tmp/errorsNull 
 grep -r '.*' ./t* | sort 2>/tmp/errorsNull
 (cat ./ ./*/* | grep -vi 'r$') 2>/tmp/errorsNull
-(ls -al ~/opd/lab0/*/** ~/opd/lab0/ | grep "t$" | sort -r) 2>/dev/null
+(ls -al ~/ojito-makato/lab0/*/** ~/ojito-makato/lab0/ | grep "t$" | sort -r | head -n3) 2>/dev/null
 (ls -Sr  ./ ./*/* | grep 'mbu') 2>/tmp/errorsNull
 #5
 rm roserade7
