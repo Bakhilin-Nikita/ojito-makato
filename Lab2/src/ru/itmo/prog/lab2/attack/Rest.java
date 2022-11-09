@@ -11,6 +11,11 @@ public class Rest extends StatusMove {
     protected void applyOppEffects(Pokemon pokemon) {
         super.applyOppEffects(pokemon);
         Effect.sleep(pokemon);
+        pokemon.setMod(Stat.HP,100);
+        Effect.sleep(pokemon);
+        if (pokemon.getStat(Stat.HP) == 100) {
+            pokemon.setMod(Stat.ACCURACY, 0);
+        }
     }
 
     @Override

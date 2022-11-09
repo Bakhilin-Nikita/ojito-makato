@@ -12,11 +12,9 @@ public class WaterFall extends PhysicalMove {
     }
 
     @Override
-    protected void applyOppEffects(Pokemon pokemon) {
-        super.applyOppEffects(pokemon);
-        if (!pokemon.hasType(Type.PSYCHIC)) {
-            Effect.freeze(pokemon);
-        }
+    protected void applySelfEffects(Pokemon pokemon) {
+        super.applySelfEffects(pokemon);
+        new Effect().clear();
     }
 
     @Override

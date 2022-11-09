@@ -1,9 +1,6 @@
 package ru.itmo.prog.lab2.attack;
 
-import ru.ifmo.se.pokemon.PhysicalMove;
-import ru.ifmo.se.pokemon.Pokemon;
-import ru.ifmo.se.pokemon.Status;
-import ru.ifmo.se.pokemon.Type;
+import ru.ifmo.se.pokemon.*;
 
 public class Facade extends PhysicalMove {
     public Facade()
@@ -15,7 +12,7 @@ public class Facade extends PhysicalMove {
     protected void applyOppEffects(Pokemon pokemon) {
         super.applyOppEffects(pokemon);
         if(pokemon.getCondition() == Status.POISON || pokemon.getCondition() == Status.BURN || pokemon.getCondition() == Status.PARALYZE ) {
-            //
+            pokemon.setMod(Stat.ATTACK, 140);
         }
     }
 
