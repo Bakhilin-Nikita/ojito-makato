@@ -1,0 +1,5 @@
+Main-Class: ru.itmo.prog.lab2.App
+Class-Path: ../Pokemon.jar
+
+
+
