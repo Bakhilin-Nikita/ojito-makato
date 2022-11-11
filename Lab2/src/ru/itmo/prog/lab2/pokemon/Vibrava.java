@@ -1,4 +1,4 @@
-package ru.itmo.prog.lab2.pokemon;
+ package ru.itmo.prog.lab2.pokemon;
 
 import ru.ifmo.se.pokemon.Type;
 import ru.itmo.prog.lab2.attack.BugBuzz;

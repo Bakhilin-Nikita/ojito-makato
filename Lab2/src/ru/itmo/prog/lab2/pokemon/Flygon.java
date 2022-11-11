@@ -11,5 +11,6 @@ public class Flygon extends Vibrava{
         setType(Type.GROUND, Type.DRAGON);
         setStats(80,100,80,80,80,100);
         setMove(new Facade(), new Confide(), new BugBuzz());
+        addMove(new DracoMeteor())
     }
 }
