@@ -1,0 +1,19 @@
+lessons_info:
+  - subject:
+      name: Operation System
+      time: 11:40 - 13:10, 13:30 - 15:00
+      teacher: Bostrikova Daria Konstantinovna
+      format: Full-time - remote
+      type_of_week: even
+  - subject:
+      name: Computer Science
+      time: 15:20 - 16:50, 17:00 - 18:30
+      teacher: Guryanova Aglaya Gennadievna
+      format: Full-time - remote
+      type_of_week: even
+  - subject:
+      name: Checkers
+      time: 20:00 - 21:30
+      teacher: Rekin Vladimir Zaharovich
+      format: Full-time - remote
+      type_of_week: uneven

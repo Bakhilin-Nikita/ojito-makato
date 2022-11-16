@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<test>
+    <lessons_info>
+        <item>
+            <subject>
+                <name>
+                    Operation System
+                </name>
+                <time>
+                    11:40 - 13:10, 13:30 - 15:00
+                </time>
+                <teacher>
+                    Bostrikova Daria Konstantinovna
+                </teacher>
+                <format>
+                    Full-time - remote
+                </format>
+                <type_of_week>
+                    even
+                </type_of_week>
+            </subject>
+        </item>
+        <item>
+            <subject>
+                <name>
+                    Computer Science
+                </name>
+                <time>
+                    15:20 - 16:50, 17:00 - 18:30
+                </time>
+                <teacher>
+                    Guryanova Aglaya Gennadievna
+                </teacher>
+                <format>
+                    Full-time - remote
+                </format>
+                <type_of_week>
+                    even
+                </type_of_week>
+            </subject>
+        </item>
+        <item>
+            <subject>
+                <name>
+                    Checkers
+                </name>
+                <time>
+                    20:00 - 21:30
+                </time>
+                <teacher>
+                    Rekin Vladimir Zaharovich
+                </teacher>
+                <format>
+                    Full-time - remote
+                </format>
+                <type_of_week>
+                    uneven
+                </type_of_week>
+            </subject>
+        </item>
+    </lessons_info>
+</test>
