@@ -1,7 +1,6 @@
 package ru.lab3.hero;
 
 import ru.lab3.enums.*;
-
 import java.util.Objects;
 
 public abstract class Hero {
@@ -42,6 +41,6 @@ public abstract class Hero {
 
     @Override
     public String toString() {
-        return getClass().getSimpleName();
+        return super.toString();
     }
 }

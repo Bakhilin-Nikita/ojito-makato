@@ -22,7 +22,8 @@ public class Poetess {
 
     @Override
     public String toString() {
-        return getClass().getSimpleName();
+        return getClass().getSimpleName() +
+                " [name=" + name + " ]";
     }
 
     @Override

@@ -50,7 +50,11 @@ public class Portrait implements iPortrait{
 
     @Override
     public String toString() {
-        return getClass().getSimpleName();
+        return getClass().getSimpleName() +
+                " [similarity=" + similarity +
+                ", beauty=" + beauty +
+                ", poetess=" + poetess.getName() +
+                " ]";
     }
 
     @Override

@@ -5,9 +5,8 @@ import ru.lab3.enums.*;
 import ru.lab3.hero.MainHero;
 
 public class Gemstone extends MainHero {
-    public Gemstone(String name) {
-        super(Side.GOODNESS, Gender.MALE, name);
+    public Gemstone() {
+        super(Side.GOODNESS, Gender.MALE);
         setPortrait(Similarity.DISTANT, Beauty.NORMAL, new Poetess("Николай Носов"));
     }
-
 }
